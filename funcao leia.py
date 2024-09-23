@@ -6,4 +6,6 @@ nome=input("Digite o nome:")
 print("Nome digitado foi=",nome)
 
 idade=input("Digite tua idade:")
+print("A idade digitado foi")
+print(type(nome))
 print(type(idade))
