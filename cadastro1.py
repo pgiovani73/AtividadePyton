@@ -1,0 +1,13 @@
+nome=input("Dgite o nome:")
+cpf=int(input("Digite o CPF:"))
+rg=int(input("Digite o RG:"))
+data=int(input("Digite a data de nascimento:"))
+sexo=input("Digite o sexo:")
+peso=input("Diogite o Peso:")
+sangue=input("Digite o tipo sanguineo:")
+renda=input("Digite o a renda:")
+end=input("Digite o endereço:")
+telefone=input("Digite o telefone:")
+cidade=input("Digite a cidade:")
+estado=input("Digite o estado:")
+         
