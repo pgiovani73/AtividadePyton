@@ -1,5 +1,5 @@
 print("a quantidade de %s é de %d, mas o salario é %f"%("bananas",10,1200.50))
-idade1=11
+idade1=16
 idade2=12
 filho=2
 print("Eu tenho %d filhos, ambos de %d e %d anos" % (filho, idade1, idade2))

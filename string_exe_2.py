@@ -1,0 +1,6 @@
+t=input("Digite um texto: ")
+x=input("digite outro texto: ")
+print(t)
+print(len(t))
+print(x)
+print(len(x))
