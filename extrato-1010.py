@@ -29,7 +29,9 @@ if user==4321:
             cpf=(input("Digite o CPF:"))
             fone=(input("Digite o fone:"))
             sexo=(input("Digite o sexo:"))
-            print(nome,"\n",cpf,"\n",fone,"\n",sexo)
+            print("\n|---------------------|\n")
+            print(" NOME:",nome,"\n CPF:",cpf,"\n FONE:",fone,"\n SEXO:",sexo)
+            print("\n|---------------------|")
      elif op==5:
         print("|--------TERMINO DA SESSÃO--------|")
      else:
