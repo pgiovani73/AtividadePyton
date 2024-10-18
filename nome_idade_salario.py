@@ -25,8 +25,12 @@ while True:
 while True:
     sexo=(input("digite f -feminino, m -masculino, o -outros\n"))
     if sexo=="o" or sexo =="f" or sexo == "m":
-        print(sexo)
+        if sexo=="f":
+            print("Sexo Feminino")
+        elif sexo == "m":
+            print("Sexo masculino")
+        elif sexo=="o":
+            print("outros")
         break
     else:
         print("digite uma opção valida")
-
