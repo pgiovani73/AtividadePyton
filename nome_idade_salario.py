@@ -23,7 +23,7 @@ while True:
         print("digite salario maior que zero")
 
 while True:
-    sexo=(input("digite f -feminino, m -masculino, o -outros\n"))
+    sexo=(input("digite f = feminino, m = masculino, o = outros\n"))
     if sexo=="o" or sexo =="f" or sexo == "m":
         if sexo=="f":
             print("Sexo Feminino")
@@ -32,5 +32,6 @@ while True:
         elif sexo=="o":
             print("outros")
         break
+   
     else:
-        print("digite uma opção valida")
+        print("Opção inválida. Tente novamente.")

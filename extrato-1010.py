@@ -1,7 +1,7 @@
 print("|========= BANCO DO BRASIL =========|\n")
 user=int(input("Digite tua Senha: "))
 saldo=250
-if user==4321:
+if user==1260:
      print("\n|---------MENU--------|")
      print("|    1 - Extrato      |\n""|    2 - Deposito     |\n""|    3 - Saque        |\n""|    4 - Adm          |\n""|    5 - Sair         |")
      print("|---------------------|")
