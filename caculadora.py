@@ -1,6 +1,6 @@
 while True:
 
-    menu =int(input("Escolha a opção\n 1- soma\n 2- subtração\n 3 - multiplicação\n 4 - divisão\n 0 - Sair\n"))
+    menu =int(input("Escolha a opção\n 1 - soma\n 2 - subtração\n 3 - multiplicação\n 4 - divisão\n 0 - Sair\n"))
     if menu==1:
         soma=float(input("Digite um numero:"))
         soma1=float(input("Digite outro numero:"))
@@ -15,12 +15,12 @@ while True:
         mult=float(input("Digite um numero:"))
         mult1=float(input("Digite outro numero:"))
         mult_total=mult*mult1
-        print("Resultado da multiplicação:", sub_total,"\n")
+        print("Resultado da multiplicação:", mult_total,"\n")
     elif menu==4:
         div=float(input("Digite um numero:"))
         div1=float(input("Digite outro numero:"))
-        sub_total=div+div1
-        print("Resultado da divisão:", sub_total,"\n")
+        div_total=div+div1
+        print("Resultado da divisão:", div_total,"\n")
     elif menu==0:
         print("$$$$-FINALIZANDO-$$$$")
         break
