@@ -22,7 +22,7 @@ while True:
         div_total=div+div1
         print("Resultado da divisão:", div_total,"\n")
     elif menu==0:
-        print("$$$$-FINALIZANDO-$$$$")
+        print("$$$$-OPERAÇÃO FINALIZADA-$$$$")
         break
     
     else:
