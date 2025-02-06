@@ -26,28 +26,25 @@ import numpy as np
 # matriz=array_aleatorio.resahpe(5,2)
 # print(matriz)
 
-array_aleatorio = np.random.rand(10) 
+n=np.array([[1,71,30,4,5], [4,57,65,41,10]])
+print(n)
 
-soma = np.sum(array_aleatorio) 
+array = np.arange(12)
+matriz = np.reshape(array, (3, 4))
 
-media = np.mean(array_aleatorio) 
-
-maximo = np.max(array_aleatorio) 
-
-minimo = np.min(array_aleatorio) 
-
-  
-
-print("Array aleatório:", array_aleatorio) 
-
-print("Soma:", soma) 
-
-print("Média:", media) 
-
-print("Máximo:", maximo) 
-
-print("Mínimo:", minimo) 
-
-matriz = array_aleatorio.reshape(2, 5) 
-
-print("Matriz reshape:", matriz) 
+# Crie um array de 10 números aleatórios entre 0 e 1.
+# Calcule a soma, média, valor máximo e mínimo desse array.
+# Reshape o array para uma matriz 2x5.
+array_aleatorio = np.random.rand(10)
+soma = np.sum(array_aleatorio)
+media = np.mean(array_aleatorio)
+maximo = np.max(array_aleatorio)
+minimo = np.min(array_aleatorio)
+ 
+print("Array aleatório:", array_aleatorio)
+print("Soma:", soma)
+print("Média:", media)
+print("Máximo:", maximo)
+print("Mínimo:", minimo)
+matriz = array_aleatorio.reshape(2, 5)
+print("Matriz reshape:", matriz)
